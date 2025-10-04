@@ -1,0 +1,32 @@
+/* Desktop: 1025px and above */
+body {
+    font-size: 18px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+form {
+    max-width: 700px;
+}
+body {
+    font-size: 18px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+form {
+    max-width: 700px;
+}
+
+.hero-photo {
+    max-width: 300px; /* limits width */
+    width: 100%;      /* scales down if container is smaller */
+    height: auto;     /* keeps aspect ratio */
+    display: block;   /* removes inline spacing */
+    margin: 0 auto;   /* centers image horizontally */
+    border-radius: 10px; /* optional rounded corners */
+}

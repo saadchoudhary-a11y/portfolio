@@ -1,0 +1,199 @@
+/* ====== Base Styling ====== */
+
+/* Reset some default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #df3f3f; /* light gray background */
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb); /* horizontal linear gradient */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: block;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* gold highlight on hover */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+/* Articles for Projects */
+article {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Forms */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4e54c8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8f94fb;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+/* ===== New Professional Styling Enhancements ===== */
+article {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+article:hover {
+    transform: translateY(-5px);
+}
+/* ===== Body & Fonts ===== */
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* clean, professional font */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4; /* light gray background */
+}
+
+h1, h2 {
+    color: #4e54c8;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+/* ===== Projects articles ===== */
+article {
+    background: linear-gradient(135deg, #f6d365, #fda085); /* angled gradient */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* card shadow */
+    transition: transform 0.3s;
+}
+
+article:hover {
+    transform: translateY(-5px); /* subtle hover lift */
+}
+/* ===== Contact Form ===== */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #4e54c8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #8f94fb;
+}
+/* ===== Footer ===== */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 2px solid #ffd700; /* gold accent */
+}.hero-photo {
+    max-width: 300px; /* limits width */
+    width: 100%;      /* scales down if container is smaller */
+    height: auto;     /* keeps aspect ratio */
+    display: block;   /* removes inline spacing */
+    margin: 0 auto;   /* centers image horizontally */
+    border-radius: 10px; /* optional rounded corners */
+}
